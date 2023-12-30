@@ -6,161 +6,44 @@
     rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
-    href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Jim+Nightshade&family=Redressed&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Raleway:wght@900&family=Sora:wght@300;400;500;600&display=swap"
     rel="stylesheet">
 <link rel="shortcut icon" type="imagex/png" href="image/iracema-icon.png">
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <!-- configuração de media query -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Romantismo</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Jim+Nightshade&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap');
-        @media screen {
-            body {
-                background-color: #dcc594;
-
-                margin: 0;
-                padding: 0;
-            }
-
-            header {
-                background-color: #c9a974;
-                padding: 20px;
-                text-align: center;
-            }
-
-            h1 {
-                font-family: 'UnifrakturMaguntia', sans-serif;
-                color: #fff;
-                font-size: 100px;
-                margin: 0;
-            }
-
-            h3 {
-                color: #483737;
-            }
-
-            nav {
-            
-                font-family: 'Inknut Antiqua';
-                background-color: #90682f;
-                color: #fff;
-                display: flex;
-                justify-content: space-between;
-                padding: 30px;
-            }
-            a:hover {
-                text-decoration: underline dotted;
-            }
-
-            nav a {
-                
-                color: #ffffff;
-                font-size: 40px;
-                margin: 0 10px;
-                text-decoration: none;
-            }
-
-            main {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                margin: 20px;
-            }
-
-            article {
-                background-color: #ffffd5;
-                border-radius: 5px;
-                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-                margin-bottom: 20px;
-                padding: 20px;
-            }
-
-            article h2 {
-                color: #483737;
-                text-decoration: underline dotted;
-                font-size: 24px;
-                margin: 0;
-            }
-
-            article p {
-                color: #222222;
-                font-size: 16px;
-                line-height: 1.5;
-                margin: 10px 0 0;
-            }
-
-            .container {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerDois {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerTrês {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerArquitetura {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerQuatro {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerCinco {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            .containerSeis {
-                text-align: center;
-                margin-top: 40px;
-                size: 40%;
-                margin-bottom: 40px;
-            }
-
-            footer {
-                font-size: 20px;
-                background-color: #90682f;
-                color: #ffffff;
-                padding: 20px;
-                text-align: center;
-            }
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <h1>Romantismo</h1>
+        <nav>
+            <a class="logo" href="/">Romantismo</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Obras e autores">Obras e autores</a></li>
+                <li><a href="#Arquitetura">Arquitetura</a></li>
+                <li><a href="#Pintura">Pintura</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#Sobre">Sobre</a>
-        <a href="#Obras e autores">Obras e autores</a>
-        <a href="#Arquitetura">Arquitetura</a>
-        <a href="#Pintura">Pintura</a>
-    </nav>
+
+    <script src="mobile-navbar.js"></script>
     <main>
         <article>
             <h2 id="Sobre">Sobre</h2>
